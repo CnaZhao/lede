@@ -31,8 +31,8 @@ jobs:
           # [ -e files ] && mv files openwrt/files
           # [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
           chmod +x $DIY_SH
-          # cd lede
-          #./$DIY_SH
+           cd lede
+          ./$DIY_SH
           # make defconfig
       
       
@@ -41,7 +41,7 @@ jobs:
         run: |
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-          cp k3diy.config .config
+          cp k3diya.config .config
           make defconfig
           sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES += phicomm-k3|' target/linux/bcm53xx/image/Makefile
       - name: Build Image
