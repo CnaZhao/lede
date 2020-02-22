@@ -75,5 +75,5 @@ git clone https://github.com/vernesong/OpenClash.git package/mine/OpenClash
 
 #luci-app-vssr
 git clone https://github.com/Leo-Jo/luci-app-vssr.git package/mine/luci-app-vssr
-#vssr的依赖包
+#vssr的依赖包 需要的依赖有python3-maxminddb libmaxminddb 请自行添加 建议搭配argon theme
 git clone https://github.com/Leo-Jo-My/my package/mine/luci-app-vssr-lib 
