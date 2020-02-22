@@ -16,7 +16,7 @@ env:
   DIY_SH: diy.sh
 
 jobs:
-  k3-alex+:
+  k3-alex:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
