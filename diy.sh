@@ -49,9 +49,9 @@ git clone https://github.com/destan19/OpenAppFilter.git package/mine/OpenAppFilt
 # Rclone-OpenWrt
 git clone https://github.com/ElonH/Rclone-OpenWrt.git package/mine/Rclone-OpenWrt
 
-# ssr-plus-Jo
+# ssr-plus-Jo 被Vssr替代
 #git clone https://github.com/project-openwrt/luci-app-ssr-plus-Jo.git package/mine/luci-app-ssr-plus-Jo
-git clone https://github.com/Leo-Jo/luci-app-ssr-plus-jo.git package/mine/luci-app-ssr-plus-leo-Jo
+#git clone https://github.com/Leo-Jo/luci-app-ssr-plus-jo.git package/mine/luci-app-ssr-plus-leo-Jo
 
 # luci-app-frps
 git clone https://github.com/project-openwrt/luci-app-frps.git package/mine/luci-app-frps
