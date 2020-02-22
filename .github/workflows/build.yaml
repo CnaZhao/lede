@@ -4,8 +4,8 @@ on:
   #push:
   #  branches: 
   #    - master
-  #schedule:
-  #  - cron: 0 21 * * *
+  schedule:
+    - cron: 0 21 * * *
   watch:
     types: [started]
     
@@ -35,10 +35,9 @@ jobs:
           ./$DIY_SH
           # make defconfig
       
-      
-      
       - name: Prepare Build
         run: |
+          ./scripts/feeds clean
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           cp k3diy.config .config
