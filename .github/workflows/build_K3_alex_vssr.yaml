@@ -1,4 +1,4 @@
-name: Build K3alex+ddns+vssr
+name: Build K3alex_ddns_vssr
 
 on: 
   #push:
@@ -16,7 +16,7 @@ env:
   DIY_SH: diy.sh
 
 jobs:
-  k3-alex+vssr:
+  k3-alex-vssr:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
