@@ -76,4 +76,4 @@ git clone https://github.com/vernesong/OpenClash.git package/mine/OpenClash
 #luci-app-vssr
 git clone https://github.com/Leo-Jo/luci-app-vssr.git package/mine/luci-app-vssr
 #vssr的依赖包
-git clone git clone https://github.com/Leo-Jo-My/my package/mine/myvssr 
+git clone https://github.com/Leo-Jo-My/my package/mine/luci-app-vssr-lib 
