@@ -1,13 +1,13 @@
 name: Build
 
-on: 
+#on: 
   #push:
   #  branches: 
   #    - master
-  schedule:
-    - cron: 0 21 * * *
-  #watch:
-  #  types: [started]
+  #schedule:
+  #  - cron: 0 21 * * *
+  watch:
+    types: [started]
     
 env:
   # REPO_URL: https://github.com/coolsnowwolf/lede
